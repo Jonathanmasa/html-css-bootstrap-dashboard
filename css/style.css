@@ -36,8 +36,13 @@ header li .nav-link {
 
 /* regole library */
 
-.hover-ghost {
+.table td:nth-child(2),
+.table th:nth-child(2) {
     display: none;
+}
+
+.table button:hover {
+    color: rgb(88, 86, 86);
 }
 
 /* layout secondari */
@@ -54,10 +59,10 @@ header li .nav-link {
 /* media-query */
 
 @media screen and (min-width:768px) {
-    .hover-ghost {
-        display: block;
-           
-    }
+    .table td:nth-child(2),
+    .table th:nth-child(2) {
+    display: table-cell;
+}
     main {
         width: 80%;
         margin: 20px auto;
