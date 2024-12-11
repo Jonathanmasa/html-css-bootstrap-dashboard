@@ -2,3 +2,25 @@
 body {
     font-family:"Roboto", serif;
 }
+
+/* header rules */
+header {
+    min-height: 70px;
+    background-color: rgb(47, 43, 43);
+}
+
+header li .nav-link {
+    color: grey;
+}
+
+.navbar-brand img {
+    max-width: 40px;
+}
+
+.navbar-toggler {
+    border-color: gray;
+}
+
+.navbar-toggler-icon {
+    color: gray;
+}
