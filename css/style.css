@@ -29,6 +29,9 @@ header li .nav-link {
 .navbar-toggler-icon {
     color: gray;
 }
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
 
 .clearfix {
     margin-bottom: 20px;
