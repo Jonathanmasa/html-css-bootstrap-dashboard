@@ -3,6 +3,10 @@ body {
     font-family:"Roboto", serif;
 }
 
+main {
+    margin: 20px 5px;
+}
+
 /* header rules */
 header {
     min-height: 70px;
@@ -23,4 +27,25 @@ header li .nav-link {
 
 .navbar-toggler-icon {
     color: gray;
+}
+
+.clearfix {
+    margin-bottom: 20px;
+}
+
+/* regole library */
+
+
+
+
+
+
+
+/* media-query */
+
+@media screen and (max-width:768px) {
+    .hover-ghost {
+        visibility: hidden;
+    }
+    
 }
