@@ -5,6 +5,7 @@ body {
 
 main {
     margin: 20px 5px;
+    width: 100%;
 }
 
 /* header rules */
@@ -35,6 +36,15 @@ header li .nav-link {
 
 /* regole library */
 
+.hover-ghost {
+    display: none;
+}
+
+/* layout secondari */
+.list-group {
+    margin-bottom: 20px;
+}
+
 
 
 
@@ -43,9 +53,30 @@ header li .nav-link {
 
 /* media-query */
 
-@media screen and (max-width:768px) {
+@media screen and (min-width:768px) {
     .hover-ghost {
-        visibility: hidden;
+        display: block;
+           
+    }
+    main {
+        width: 80%;
+        margin: 20px auto;
+    } 
+}
+
+@media screen and (min-width:1024px) {
+
+    .layout-main {
+        display: flex;
+        gap: 2%;
+    }
+
+    table {
+        width: 58%;
     }
     
+    .layout-secondari {
+        width: 40%;
+    }
 }
+
