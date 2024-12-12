@@ -11,7 +11,7 @@ main {
 /* header rules */
 header {
     min-height: 70px;
-    background-color: rgb(47, 43, 43);
+
 }
 
 header li .nav-link {
@@ -37,15 +37,16 @@ header li .nav-link {
     margin-bottom: 20px;
 }
 
-/* regole library */
 
-.table td:nth-child(2),
-.table th:nth-child(2) {
-    display: none;
+.table-hover:hover {
+    background-color: rgb(196, 195, 195);
+
 }
 
+/* regole library */
+
 .table button:hover {
-    color: rgb(88, 86, 86);
+    background-color: rgb(99, 93, 93);
 }
 
 /* layout secondari */
@@ -62,15 +63,14 @@ header li .nav-link {
 /* media-query */
 
 @media screen and (min-width:768px) {
-    .table td:nth-child(2),
-    .table th:nth-child(2) {
-    display: table-cell;
-}
     main {
         width: 80%;
         margin: 20px auto;
     } 
 }
+    
+
+   
 
 @media screen and (min-width:1024px) {
 
