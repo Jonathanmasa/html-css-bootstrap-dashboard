@@ -22,13 +22,7 @@ header li .nav-link {
     max-width: 40px;
 }
 
-.navbar-toggler {
-    border-color: gray;
-}
 
-.navbar-toggler-icon {
-    color: gray;
-}
 .nav-link:focus, .nav-link:hover {
     color: white;
 }
@@ -43,13 +37,13 @@ header li .nav-link {
 
 }
 
-/* regole library */
+/* library rules */
 
 .table button:hover {
     background-color: rgb(99, 93, 93);
 }
 
-/* layout secondari */
+/* layout secondary */
 .list-group {
     margin-bottom: 20px;
 }
@@ -61,6 +55,7 @@ header li .nav-link {
 
 
 /* media-query */
+/* tablet */
 
 @media screen and (min-width:768px) {
     main {
@@ -71,7 +66,7 @@ header li .nav-link {
     
 
    
-
+/* dekstop */
 @media screen and (min-width:1024px) {
 
     .layout-main {
